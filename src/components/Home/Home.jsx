@@ -24,7 +24,7 @@ const Home = () => {
                 <div>
                     <h2>About Me :</h2>
                     <p>I am a Full Stack Developer Student <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30" /> from Spain</p>
-                    <ul>
+                    <ul className='list'>
                         <li>I'm currently taking bootcamp of Full Stack Web Developer @ The Bridge School, Valencia.</li>
                         <li>Full time geek.</li>
                         <li>In my free time I like to play FPS games and play guitar.</li>
@@ -32,9 +32,12 @@ const Home = () => {
                     </ul>
                 </div>                
             </div>
-            <div >
+            <div >                
                 <div>
                     <h2>Languages and Tools :</h2>
+                </div>
+                <div> 
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yorch82&layout=compact&theme=vision-friendly-dark)" alt="Stats" />           
                 </div>
                 <div className='iconContainer'>
                     <img className='icon' src={reactSVG} title="React" alt="React"/>
@@ -50,10 +53,9 @@ const Home = () => {
                     <img className='icon' src={dockerSVG} title="Docker" alt="Docker"/>
                     <img className='icon' src={gitSVG} title="Git" alt="Git"/>
                     <img className='icon' src={bootstrapSVG} title="Bootstrap" alt="Bootstrap" />
-                </div>
-                
-                
+                </div>               
             </div>
+            
         </div>       
     )
 }

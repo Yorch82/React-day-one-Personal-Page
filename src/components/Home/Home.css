@@ -6,6 +6,8 @@
 .iconContainer {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
+    
 }
 
 .image {
@@ -13,4 +15,21 @@
     margin-bottom: 10px;
     width:20%;
     height:20%;
+}
+
+.list {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-end;
+    
+}
+
+.list li {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    text-align: center;
 }
