@@ -5,8 +5,8 @@
     background-color: #282c34;
     font-size: 15px;
     color: white;
-    margin-top: 10vh;
-    min-height: 5vh;   
+    margin-top: 25vh;
+    min-height: 7vh;   
 }
 
 .button {
@@ -30,5 +30,5 @@
 }
 
 .footer-container footer {
-    width: 220vh;
+    width: 210vh;
 }

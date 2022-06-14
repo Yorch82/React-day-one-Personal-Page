@@ -1,9 +1,27 @@
-.App-header {
+.App-header {      
     background-color: #282c34;
-    min-height: 10vh;
-    display: flex;    
-    align-items: center;
-    justify-content: center;
+    min-height: 10vh;    
     font-size: 25px;
-    color: white;    
-  }
+    color: white;
+    text-decoration: none;  display: flex;    
+    align-items: center;
+      
+}
+
+.App-header div {
+  width:50%;
+}
+
+.links span{
+    display: flex;       
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.link {
+  text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
